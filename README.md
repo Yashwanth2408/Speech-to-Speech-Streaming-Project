@@ -1,3 +1,28 @@
+# 🎬 Speech-to-Speech Streaming Project
+
+> **AI-Powered Video Language Converter** | Transform videos into any language with automatic transcription, translation, and voice synthesis
+
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-red.svg)](https://streamlit.io)
+
+A powerful end-to-end solution for converting video content from one language to another while maintaining lip-sync timing and natural voice quality. This project combines state-of-the-art AI models including OpenAI Whisper for speech recognition, Edge TTS for neural voice synthesis, and intelligent audio-video synchronization algorithms.
+
+## 🌟 Key Features
+
+- **🎙️ Automatic Speech Recognition**: Leverages OpenAI Whisper's "small" model for accurate transcription across multiple languages
+- **🌍 Multi-Language Translation**: Supports 11 languages including Spanish, French, German, Hindi, Tamil, Arabic, Bengali, Chinese, Portuguese, Russian, and English
+- **🗣️ Neural Voice Synthesis**: Utilizes Microsoft Edge TTS with gender-specific voice options (male/female) for each language
+- **⏱️ Intelligent Audio Synchronization**: Automatically adjusts speech tempo to match original video duration using advanced FFmpeg filters
+- **🖥️ Interactive Web Interface**: User-friendly Streamlit dashboard for seamless video processing
+- **📊 Real-Time Progress Tracking**: Visual feedback for each processing stage
+- **💾 Download Support**: Instant download of converted videos in MP4 format
+
+## 🏗️ Architecture Overview
+
+The application follows a modular pipeline architecture with five distinct processing stages:
+
+Input Video → Audio Extraction → Speech-to-Text → Translation → Text-to-Speech → Audio-Video Sync → Output Video
 
 ### Component Breakdown
 
