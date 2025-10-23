@@ -348,6 +348,6 @@ This tool is ideal for:
 
 ---
 
-**Built with ❤️ by Yashwanth Balaji**
+**Built with ❤️ by Yash :)**
 
 *Last Updated: October 2025*
