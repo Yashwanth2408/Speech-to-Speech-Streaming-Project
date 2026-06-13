@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+.App {
+  max-width: 600px;
+  margin: auto;
+}
+label {
+  font-weight: bold;
+}
+input, select, button {
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+button:disabled {
+  background-color: #d6d6d6;
+  cursor: not-allowed;
+}
